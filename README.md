@@ -1,4 +1,4 @@
-# AI Virtual Companion
+# aMIGO (AI Virtual Companion)
 
 ![AI Virtual Companion](https://img.shields.io/badge/AI-Virtual%20Companion-blue?style=for-the-badge&logo=ai)
 ![Node.js](https://img.shields.io/badge/Node.js-v16+-green?style=for-the-badge&logo=node.js)
