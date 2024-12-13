@@ -1,0 +1,246 @@
+:root {
+  --primary: #9333ea;
+  --primary-dark: #7e22ce;
+  --background: #1a1a1a;
+  --surface: #2d2d2d;
+  --text: #ffffff;
+  --text-secondary: #a3a3a3;
+  
+  /* Font families */
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Outfit', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--background);
+  color: var(--text);
+  min-height: 100vh;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+.navbar {
+  background-color: var(--surface);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid var(--primary);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: var(--font-heading);
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: var(--primary);
+  letter-spacing: -0.03em;
+}
+
+.waves-logo {
+  width: 50px;
+  height: 50px;
+}
+
+.wave-group path {
+  transform-origin: center;
+  animation: pulse 2s infinite;
+}
+
+.wave-group.wave-1 path {
+  animation-delay: 0s;
+}
+
+.wave-group.wave-2 path {
+  animation-delay: 0.5s;
+}
+
+.wave-group.wave-3 path {
+  animation-delay: 1s;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.2;
+    transform: scale(1.1);
+  }
+  100% {
+    opacity: 0.8;
+    transform: scale(1);
+  }
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+.nav-links li {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+.nav-links li:hover {
+  background-color: var(--primary-dark);
+}
+
+.nav-links li.active {
+  background-color: var(--primary);
+  font-weight: 600;
+}
+
+.tab-content {
+  display: none;
+  padding: 2rem;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: var(--surface);
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.chat-messages {
+  height: 60vh;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 80%;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.message.user {
+  background-color: var(--primary);
+  margin-left: auto;
+  font-weight: 400;
+}
+
+.message.bot {
+  background-color: var(--surface);
+  border: 1px solid var(--primary);
+  font-weight: 300;
+}
+
+.input-container {
+  display: flex;
+  gap: 0.5rem;
+  padding: 1rem;
+  background-color: var(--surface);
+  border-top: 1px solid var(--primary);
+}
+
+textarea {
+  flex: 1;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+  color: var(--text);
+  border: 1px solid var(--primary);
+  resize: none;
+  min-height: 40px;
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: var(--primary);
+  color: var(--text);
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: -0.01em;
+}
+
+button:hover {
+  background-color: var(--primary-dark);
+}
+
+.mic-button svg {
+  width: 24px;
+  height: 24px;
+}
+
+.camera-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+video {
+  width: 100%;
+  max-width: 640px;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--surface);
+}
+
+.mood-result,
+.face-result {
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--surface);
+  border-radius: 0.5rem;
+  font-family: var(--font-heading);
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.name-input {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+.name-input input {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background-color: var(--background);
+  color: var(--text);
+  border: 1px solid var(--primary);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  font-weight: 300;
+}
+
+.hidden {
+  display: none;
+}
