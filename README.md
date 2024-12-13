@@ -126,8 +126,8 @@ Contributions are welcome! Feel free to:
 
 ## 🌐 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-YourUsername-black?style=for-the-badge&logo=github)](https://github.com/saadshk)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-YourName-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saad-shaikh-b23089214)
+[![GitHub](https://img.shields.io/badge/GitHub-saaadshk-black?style=for-the-badge&logo=github)](https://github.com/saadshk)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Saad_Shaikh-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/saad-shaikh-b23089214)
 
 ---
 
