@@ -110,7 +110,7 @@ This project was developed as a final year project by:
 - [Usaid Shaikh](https://github.com/usaid-shaikh)
 - [Rehan Shaikh](https://github.com/rehan-shaikh)
 - [Aurangzeb Shaikh](https://github.com/aurangzeb-shaikh)
-- [Yusuf Dhotekar](https://github.com/yusuf-dhotekar)
+- [Yusuf Dhotekar](https://github.com/yusufdhotekar36)
 
 ---
 
@@ -126,7 +126,7 @@ Contributions are welcome! Feel free to:
 
 ## 🌐 Connect With Me
 
-[![GitHub](https://img.shields.io/badge/GitHub-saaadshk-black?style=for-the-badge&logo=github)](https://github.com/saaadshk)
+[![GitHub](https://img.shields.io/badge/GitHub-MD.YUSUF_DHOTEKAR-black?style=for-the-badge&logo=github)](https://github.com/yusufdhotekar36)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-MD.YUSUF_DHOTEKAR-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/yusuf-dhotekar-1aa45527b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 ---
